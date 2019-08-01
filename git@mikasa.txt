@@ -11,3 +11,16 @@ $ git checkout more
 Switched to branch 'more'
 
 mikasacos@mikasacos MINGW64 /d/00github/branchtest (more)
+
+
+mikasacos@mikasacos MINGW64 /d/00github/branchtest (master)
+$ git merge more
+Updating 1c26dee..d7125ce
+Fast-forward
+ git@mikasa.txt | 7 +++++++
+ more001.txt    | 0
+ 2 files changed, 7 insertions(+)
+ create mode 100644 more001.txt
+
+mikasacos@mikasacos MINGW64 /d/00github/branchtest (master)
+$
